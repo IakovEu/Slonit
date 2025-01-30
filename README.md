@@ -1,5 +1,5 @@
 # Git наиболее частые команды
-!(https://dataenginer.ru/wp-content/uploads/2019/01/e948f49dadbb4dc8af8da57a8843a635-1024x338.png)
+![](https://dataenginer.ru/wp-content/uploads/2019/01/e948f49dadbb4dc8af8da57a8843a635-1024x338.png)
 ## Где найти команды и их описание?
 - **git help** - перечень общих команд
 - **git help название команды** - ссылка на команду и подробное описание
@@ -47,7 +47,7 @@
 # Alias короткое название
 
 ### git config alias.toHub '!git add .; git commit -m "fast"; git push' 
-(*перечисление нескольких команд в один алиас! У меня toHub*)
+(*перечисление нескольких команд в один алиас!*)
 
 ### git config --global alias.co checkout 
 ### git config --global alias.ci commit
