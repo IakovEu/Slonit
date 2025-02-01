@@ -7,6 +7,6 @@ function sumDonations(u) {
   }
   
   let donations = [10000, 20000, 30000];
-  console.log(pp(aa));
+  console.log(sumDonations(donations));
 
 
