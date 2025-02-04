@@ -1,30 +1,22 @@
 // Простой калькулятор (+-*/) /  оператор - слово / без условных операторов
 
-const doPlus = function (a, b) {
-	return a + b;
-};
+const doPlus = (a, b) => a + b;
 
-const doMinus = function (a, b) {
-	return a - b;
-};
+const doMinus =  (a, b) => a - b;
 
-const doMultiply = function (a, b) {
-	return a * b;
-};
+const doMultiply =  (a, b) => a * b;
 
-const doDivide = function (a, b) {
-	return a / b;
-};
+const doDivide =  (a, b) => a / b;
 
 function calculate(operand1, operand2, cb) {
-    return cb(operand1, operand2);
+	return cb(operand1, operand2);
 }
 
 const operations = {
 	plus: doPlus,
 	minus: doMinus,
 	multiply: doMultiply,
-	divide: doDivide
+	divide: doDivide,
 };
 
 const selectedOperation = 'multiply';
